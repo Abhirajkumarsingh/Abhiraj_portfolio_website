@@ -19,8 +19,8 @@ I also have hands-on experience with web development and MERN-based applications
 ## 🚀 Portfolio Highlights
 
 * Final-year B.Tech Computer Science Engineering student
-* 7.83 CGPA
-* 150+ DSA problems solved
+* ~8 CGPA
+* 250+ DSA problems solved
 * Data Analytics and Data Science focused
 * Machine Learning project experience
 * Web development and MERN experience
