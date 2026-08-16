@@ -18,13 +18,17 @@ export default function Navbar() {
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
+
     window.addEventListener('scroll', onScroll);
+
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
   const handleClick = (href: string) => {
     setMobileOpen(false);
+
     const el = document.querySelector(href);
+
     el?.scrollIntoView({ behavior: 'smooth' });
   };
 
@@ -65,10 +69,11 @@ export default function Navbar() {
               </button>
             </li>
           ))}
+
           <li>
             <a
-              href="/resume.pdf"
-              download
+              href="/resume/CMN%20Abhiraj%20kumar%20Resume%20.pdf"
+              download="Abhiraj-Kumar-Singh-Resume.pdf"
               className="ml-2 px-4 py-2 text-sm font-medium text-gray-900 bg-emerald-400 hover:bg-emerald-300 rounded-lg transition-colors"
             >
               Resume
@@ -106,10 +111,11 @@ export default function Navbar() {
                   </button>
                 </li>
               ))}
+
               <li>
                 <a
-                  href="/resume.pdf"
-                  download
+                  href="/resume/CMN%20Abhiraj%20kumar%20Resume%20.pdf"
+                  download="Abhiraj-Kumar-Singh-Resume.pdf"
                   className="block text-center mt-2 px-4 py-3 text-sm font-medium text-gray-900 bg-emerald-400 hover:bg-emerald-300 rounded-lg transition-colors"
                 >
                   Download Resume
