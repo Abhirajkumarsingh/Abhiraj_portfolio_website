@@ -4,7 +4,7 @@
 
 ## 🌐 Live Portfolio
 
-**abhirajkumarsingh.online**
+[abhirajkumarsingh.online](https://abhirajkumarsingh.online)
 
 ## 👋 About Me
 
